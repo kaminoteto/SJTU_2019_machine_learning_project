@@ -7,7 +7,7 @@ It is a project in SJTU machine learning course.
 * [`dataloader.py`](dataloader.py):a script of loading data.
 * [`fei_model.h5`](fei_model.h5):a trained model file.
 * [`model.py`](model.py): the model script.
-* [`sampleSubmission.csv`](sampleSubmission.csv): the training script.
+* [`sampleSubmission.csv`](sampleSubmission.csv): a sample of the predicted result, this is referenced in "test.py" and "train.py", if you want to run these scripts, this file is needed.
 * [`test.py`](test.py): load the trained model "fei_model.h5" and predict the output of test,after running this script, a file named"submission.csv"can be created.
 * [`train.py`](train.py): the training script.
 * [`train_val.csv`](train_val.csv): the label of files in [`train_val/`](train_val/)
